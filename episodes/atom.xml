@@ -33,7 +33,7 @@ layout: feed
         <updated>{{ post.date | date_to_xmlschema }}</updated>
         <id>https://akc8012.github.io/tendos/{{ post.id }}</id>
         <itunes:author>The Tendos</itunes:author>
-        <itunes:subtitle>Red + Blue != Purple</itunes:subtitle>
+        <itunes:subtitle>Helping you make the right choice.</itunes:subtitle>
         <itunes:summary>It’s the tendos! Podcast!</itunes:summary>
         <itunes:image href="https://akc8012.github.io/tendos/assets/cover_art.png" />
         <enclosure length="39207672" type="audio/mpeg"
