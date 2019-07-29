@@ -5,7 +5,10 @@ layout: feed
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Tendos #1 - 7.26.19</title>
+    <link href="https://akc8012.github.io/tendos/episodes/atom.xml" rel="self" />
     <link>https://akc8012.github.io/tendos/episodes/</link>
+    <updated>{{ site.time | date_to_xmlschema }}</updated>
+    <id>http://akc8012.github.io/tendos/episodes</id>
     <language>en-us</language>
     <copyright>© 2019 The Tendos</copyright>
     <itunes:subtitle>Helping you make the right choice.</itunes:subtitle>
@@ -23,18 +26,24 @@ layout: feed
     <itunes:category text="Comedy" />
     <itunes:explicit>no</itunes:explicit>
 
-    <item>
-      <title>Tendos #1 - 7/26/19</title>
-      <itunes:author>The Tendos</itunes:author>
-      <itunes:subtitle>Red + Blue != Purple</itunes:subtitle>
-      <itunes:summary>It’s the tendos! Podcast!</itunes:summary>
-      <itunes:image href="https://akc8012.github.io/tendos/assets/cover_art.png" />
-      <enclosure length="39207672" type="audio/mpeg"
-        url="https://akc8012.github.io/tendos/assets/Tendos_ep1_7.26.19.mp3" />
-      <guid>https://akc8012.github.io/tendos/assets/Tendos_ep1_7.26.19.mp3</guid>
-      <pubDate>Mon, 29 Jul 2019 00:00:00</pubDate>
-      <itunes:duration>35:59</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
-    </item>
+    {% for post in site.posts %}
+      <item>
+        <title>{{ post.title }}</title>
+        <link href="https://akc8012.github.io/tendos/{{ post.url }}" />
+        <updated>{{ post.date | date_to_xmlschema }}</updated>
+        <id>https://akc8012.github.io/tendos/{{ post.id }}</id>
+        <itunes:author>The Tendos</itunes:author>
+        <itunes:subtitle>Red + Blue != Purple</itunes:subtitle>
+        <itunes:summary>It’s the tendos! Podcast!</itunes:summary>
+        <itunes:image href="https://akc8012.github.io/tendos/assets/cover_art.png" />
+        <enclosure length="39207672" type="audio/mpeg"
+          url="https://akc8012.github.io/tendos/assets/Tendos_ep1_7.26.19.mp3" />
+        <guid>https://akc8012.github.io/tendos/assets/Tendos_ep1_7.26.19.mp3</guid>
+        <pubDate>Mon, 29 Jul 2019 00:00:00</pubDate>
+        <itunes:duration>35:59</itunes:duration>
+        <itunes:explicit>no</itunes:explicit>
+      </item>
+    {% endfor %}
+
   </channel>
 </rss>
