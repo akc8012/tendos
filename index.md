@@ -10,6 +10,6 @@ title: The Tendos Podcast
 A Nintendo podcast about Nintendo, by Nintendo, for Nintendo.
 
 
-## [Episodes](/episodes)
+## [Episodes](/tendos/episodes)
 
 Episode 1 out right now!
