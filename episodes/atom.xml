@@ -9,6 +9,7 @@ layout: feed
 	<link href="http://akc8012.github.io/tendos/episodes"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
 	<id>http://akc8012.github.io/episodes</id>
+	<description>It’s the tendos! Podcast!</description>
 	<author>
 		<name>The Tendos</name>
 	</author>
