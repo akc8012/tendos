@@ -2,8 +2,7 @@
 layout: feed
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns:atom="http://www.w3.org/2005/Atom" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  xmlns:itunesu="http://www.itunesu.com/feed" version="2.0">
+<feed xmlns="http://www.w3.org/2005/Atom">
 
   <title>Tendos #1 - 7.26.19</title>
   <link href="http://akc8012.github.io/tendos/episodes/atom.xml" rel="self" />
