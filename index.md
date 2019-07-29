@@ -12,4 +12,4 @@ A Nintendo podcast about Nintendo, by Nintendo, for Nintendo.
 
 ## [Episodes](/episodes)
 
-The episodes are here!
+Episode 1 out right now!
