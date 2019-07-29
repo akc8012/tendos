@@ -1,0 +1,26 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Tendos #1 - 7.26.19</title>
+	<link href="http://akc8012.github.io/tendos/episodes/atom.xml" rel="self"/>
+	<link href="http://akc8012.github.io/episodes"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://akc8012.github.io/episodes</id>
+	<author>
+		<name>The Tendos</name>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://akc8012.github.io/tendos{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://akc8012.github.io{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
