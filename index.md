@@ -10,6 +10,6 @@ title: tendos
 A Nintendo podcast about Nintendo, by Nintendo, for Nintendo.
 
 
-## [Tendos #1 - 7/26/19](#)
+## [Episodes](/episodes)
 
-Coming soon! Or not!
+The episodes are here!
