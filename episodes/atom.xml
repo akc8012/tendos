@@ -12,6 +12,7 @@ layout: feed
   <author>
     <name>The Tendos</name>
   </author>
+  <language>English</language>
 
   {% for post in site.posts %}
   <entry>
