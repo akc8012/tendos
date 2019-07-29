@@ -1,3 +1,8 @@
+---
+layout: default
+title: tendos
+---
+
 # tendos
 
 >Helping you make the right choice.
