@@ -23,11 +23,11 @@ layout: feed
     <content type="html">{{ post.content | xml_escape }}</content>
     <id>http://akc8012.github.io{{ post.id }}</id>
     <guid>http://akc8012.github.io{{ post.id }}</guid>
-    <itunes:summary>Duplicate of above verbose description.</itunes:summary>
+    <enclosure url="https://akc8012.github.io/tendos/assets/Tendos_ep1_7.26.19.mp3" type="audio/mpeg" length="1" />
+    <!-- <itunes:summary>Duplicate of above verbose description.</itunes:summary>
     <itunes:subtitle>Short description of the episode - 255 character max.</itunes:subtitle>
     <itunesu:category itunesu:code="112" />
-    <enclosure url="https://akc8012.github.io/tendos/assets/Tendos_ep1_7.26.19.mp3" type="audio/mpeg" length="1" />
-    <itunes:duration>0:36:00</itunes:duration>
+    <itunes:duration>0:36:00</itunes:duration> -->
     <pubDate>Fri, 26 Jul 2019 00:00:00 EST</pubDate>
     <updated>{{ post.date | date_to_xmlschema }}</updated>
   </entry>
