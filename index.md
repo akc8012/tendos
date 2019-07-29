@@ -7,7 +7,7 @@ title: The Tendos Podcast
 
 >Helping you make the right choice.
 
-A Nintendo podcast about Nintendo, by Nintendo, for Nintendo.
+A Nintendo podcast about Nintendo, buy Nintendo, for Nintendo.
 
 
 ## [Episodes](/tendos/episodes)
