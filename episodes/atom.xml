@@ -17,6 +17,7 @@ layout: feed
 		<entry>
 			<title>{{ post.title }}</title>
 			<link href="http://akc8012.github.io/tendos{{ post.url }}"/>
+			<media href="https://akc8012.github.io/tendos/assets/Tendos_ep1_7.26.19.mp3"/>
 			<updated>{{ post.date | date_to_xmlschema }}</updated>
 			<id>http://akc8012.github.io{{ post.id }}</id>
 			<content type="html">{{ post.content | xml_escape }}</content>
