@@ -4,31 +4,26 @@ layout: feed
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
-    <title>All About Everything</title>
-    <link>http://www.example.com/podcasts/everything/index.html</link>
+    <title>Tendos #1 - 7.26.19</title>
+    <link>https://akc8012.github.io/tendos/episodes/</link>
     <language>en-us</language>
-    <copyright>℗ &amp; © 2014 John Doe &amp; Family</copyright>
-    <itunes:subtitle>A show about everything</itunes:subtitle>
-    <itunes:author>John Doe</itunes:author>
-    <itunes:summary>All About Everything is a show about everything. Each week we dive into any subject known to man
-      and talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store
-    </itunes:summary>
-    <description>All About Everything is a show about everything. Each week we dive into any subject known to man and
-      talk about it as much as we can. Look for our podcast in the Podcasts app or in the iTunes Store</description>
+    <copyright>© 2019 The Tendos</copyright>
+    <itunes:subtitle>Helping you make the right choice.</itunes:subtitle>
+    <itunes:author>The Tendos</itunes:author>
+    <itunes:summary>A Nintendo podcast about Nintendo, by Nintendo, for Nintendo.</itunes:summary>
+    <description>A Nintendo podcast about Nintendo, by Nintendo, for Nintendo.</description>
     <itunes:owner>
-      <itunes:name>John Doe</itunes:name>
-      <itunes:email>john.doe@example.com</itunes:email>
+      <itunes:name>The Tendos</itunes:name>
+      <itunes:email>thetendos@gmail.com</itunes:email>
     </itunes:owner>
-    <itunes:image href="http://example.com/podcasts/everything/AllAboutEverything.jpg" />
-    <itunes:category text="Technology">
-      <itunes:category text="Gadgets" />
+    <itunes:image href="https://akc8012.github.io/tendos/assets/cover_art.png" />
+    <itunes:category text="Games &amp; Hobbies">
+      <itunes:category text="Video Games" />
     </itunes:category>
-    <itunes:category text="TV &amp; Film" />
-    <itunes:category text="Arts">
-      <itunes:category text="Food" />
-    </itunes:category>
+    <itunes:category text="Comedy" />
     <itunes:explicit>no</itunes:explicit>
-    <item>
+
+    <!-- <item>
       <title>Shake Shake Shake Your Spices</title>
       <itunes:author>John Doe</itunes:author>
       <itunes:subtitle>A short primer on table spices</itunes:subtitle>
@@ -72,7 +67,7 @@ layout: feed
       <itunes:duration>04:34</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
       <itunes:isClosedCaptioned>Yes</itunes:isClosedCaptioned>
-    </item>
+    </item> -->
     <item>
       <title>Red,Whine, &amp; Blue</title>
       <itunes:author>Various</itunes:author>
