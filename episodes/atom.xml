@@ -31,7 +31,7 @@ layout: feed
       <title>{{ post.title }}</title>
       <description>{{ post.summary }}</description>
       <itunes:summary>{{ post.summary }}</itunes:summary>
-      <itunes:subtitle>{{ post.excerpt | strip_html }}</itunes:subtitle>
+      <itunes:subtitle>{{ post.summary }}</itunes:subtitle>
       <link href="https://akc8012.github.io/tendos{{ post.url }}" />
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
