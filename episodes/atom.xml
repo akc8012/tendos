@@ -40,7 +40,7 @@ layout: feed
           url="https://akc8012.github.io/tendos/assets/{{ post.asset_id }}.mp3" />
         <guid>https://akc8012.github.io/tendos/assets/{{ post.asset_id }}.mp3</guid>
         <pubDate>Mon, 29 Jul 2019 00:00:00</pubDate>
-        <itunes:duration>{{ post.duration }}</itunes:duration>
+        <itunes:duration>35:59</itunes:duration>
         <itunes:explicit>no</itunes:explicit>
       </item>
     {% endfor %}
