@@ -27,22 +27,23 @@ layout: feed
     <itunes:explicit>no</itunes:explicit>
 
     {% for post in site.posts %}
-      <item>
-        <title>{{ post.title }}</title>
-        <link href="https://akc8012.github.io/tendos{{ post.url }}" />
-        <updated>{{ post.date | date_to_xmlschema }}</updated>
-        <id>https://akc8012.github.io/tendos{{ post.id }}</id>
-        <itunes:author>The Tendos</itunes:author>
-        <itunes:subtitle>Helping you make the right choice.</itunes:subtitle>
-        <itunes:summary>{{ post.summary }}</itunes:summary>
-        <itunes:image href="https://akc8012.github.io/tendos/assets/cover_art.png" />
-        <enclosure length="{{ post.length }}" type="audio/mpeg"
-          url="https://akc8012.github.io/tendos/assets/{{ post.asset_id }}.mp3" />
-        <guid>https://akc8012.github.io/tendos/assets/{{ post.asset_id }}.mp3</guid>
-        <pubDate>Mon, 29 Jul 2019 00:00:00</pubDate>
-        <itunes:duration>35:59</itunes:duration>
-        <itunes:explicit>no</itunes:explicit>
-      </item>
+    <item>
+      <title>{{ post.title }}</title>
+      <link href="https://akc8012.github.io/tendos{{ post.url }}" />
+      <updated>{{ post.date | date_to_xmlschema }}</updated>
+      <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
+      <id>https://akc8012.github.io/tendos{{ post.id }}</id>
+      <itunes:author>The Tendos</itunes:author>
+      <description>{{ post.summary }}</description>
+      <itunes:summary>{{ post.summary }}</itunes:summary>
+      <itunes:subtitle>Helping you make the right choice.</itunes:subtitle>
+      <itunes:image href="https://akc8012.github.io/tendos/assets/cover_art.png" />
+      <enclosure length="{{ post.length }}" type="audio/mpeg"
+        url="https://akc8012.github.io/tendos/assets/{{ post.asset_id }}.mp3" />
+      <guid>https://akc8012.github.io/tendos/assets/{{ post.asset_id }}.mp3</guid>
+      <itunes:duration>35:59</itunes:duration>
+      <itunes:explicit>no</itunes:explicit>
+    </item>
     {% endfor %}
 
   </channel>
