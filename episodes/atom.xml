@@ -5,8 +5,8 @@ layout: feed
 <rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
   <channel>
     <title>Tendos</title>
-    <link href="https://akc8012.github.io/tendos/episodes/atom.xml" rel="self" />
     <link>https://akc8012.github.io/tendos/episodes/</link>
+    <atom:link href="https://akc8012.github.io/tendos/episodes/atom.xml" rel="self" type="application/rss+xml" />
     <updated>{{ site.time | date_to_xmlschema }}</updated>
     <id>http://akc8012.github.io/tendos/episodes</id>
     <language>en-us</language>
