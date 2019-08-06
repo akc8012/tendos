@@ -9,6 +9,7 @@ title: The Tendos Podcast
 
 A Nintendo podcast about Nintendo, buy Nintendo, for Nintendo.
 
+New episodes every Friday-ish. 
 
 ## [Episodes](/tendos/episodes)
 
