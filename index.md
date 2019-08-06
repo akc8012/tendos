@@ -13,5 +13,5 @@ New episodes every Friday-ish.
 
 ## [Episodes](/tendos/episodes)
 
-Find us on [Apple Podcasts](https://podcasts.apple.com/us/podcast/tendos/id1474711730), [SoundCloud](https://soundcloud.com/tendos-podcast), and [Pocket Casts](https://pca.st/do62).
-Coming soon to Spotify and Google Podcasts maybe ¯\\_(ツ)_/¯
+Find us on [Apple Podcasts](https://podcasts.apple.com/us/podcast/tendos/id1474711730), [Spotify](https://open.spotify.com/show/0f83jgg7CCT1OokROI1QRJ), [SoundCloud](https://soundcloud.com/tendos-podcast), and [Pocket Casts](https://pca.st/do62).
+Coming soon to Google Podcasts maybe ¯\\_(ツ)_/¯
