@@ -1,9 +1,9 @@
 ---
 layout: default
-title: The Tendos Podcast
+title: the tendos podcast
 ---
 
-# tendos
+# Tendos
 
 >Helping you make the right choice.
 
