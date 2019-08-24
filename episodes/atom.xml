@@ -29,9 +29,9 @@ layout: feed
     {% for post in site.posts %}
     <item>
       <title>{{ post.title }}</title>
-      <description>{{ post.summary }}</description>
-      <itunes:summary>{{ post.summary }}</itunes:summary>
-      <itunes:subtitle>{{ post.summary }}</itunes:subtitle>
+      <description>{{ post.summary | xml_escape }}</description>
+      <itunes:summary>{{ post.summary | xml_escape }}</itunes:summary>
+      <itunes:subtitle>{{ ppost.summary | xml_escape }}</itunes:subtitle>
       <link href="https://akc8012.github.io/tendos{{ post.url }}" />
       <updated>{{ post.date | date_to_xmlschema }}</updated>
       <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
