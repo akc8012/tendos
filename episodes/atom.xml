@@ -40,7 +40,14 @@ layout: feed
       <itunes:author>The Tendos</itunes:author>
       <itunes:image href="https://akc8012.github.io/tendos/assets/cover_art.png" />
       <enclosure length="{{ post.length }}" type="audio/mpeg"
-        url="https://akc8012.github.io/tendos/assets/{{ post.asset_id }}.mp3" />
+
+      {% if post.file_url %}
+        url="{{ post.file_url }}"
+      {% else %}
+        url="https://akc8012.github.io/tendos/assets/{{ post.asset_id }}.mp3"
+      {% endif %}
+      />
+
       <itunes:duration>{{ post.duration }}</itunes:duration>
       <itunes:explicit>no</itunes:explicit>
     </item>
