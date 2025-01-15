@@ -1,6 +1,6 @@
 ---
 layout: default
-title: the tendos podcast
+title: The Tendos Podcast
 ---
 
 # Tendos

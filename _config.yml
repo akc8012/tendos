@@ -1,5 +1,5 @@
-name: tendos
-title: tendos
+name: Tendos
+title: Tendos
 theme: jekyll-theme-cayman
 plugins:
   - jekyll-feed
