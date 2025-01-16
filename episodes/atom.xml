@@ -24,7 +24,7 @@ layout: feed
       <itunes:category text="Video Games" />
     </itunes:category>
     <itunes:category text="Comedy" />
-    <itunes:explicit>no</itunes:explicit>
+    <itunes:explicit>yes</itunes:explicit>
 
     {% for post in site.posts %}
     <item>
@@ -49,7 +49,7 @@ layout: feed
       />
 
       <itunes:duration>{{ post.duration }}</itunes:duration>
-      <itunes:explicit>no</itunes:explicit>
+      <itunes:explicit>yes</itunes:explicit>
     </item>
     {% endfor %}
 
